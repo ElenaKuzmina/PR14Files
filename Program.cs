@@ -41,7 +41,7 @@ namespace PR14Files
             sw.WriteLine("Вариант 8");
             Console.WriteLine(newtext);
             sw.WriteLine($"{newtext}");
-        
+        //
 
             //v1 Определить, входит ли заданное слово в текст, и если входит, то сколько раз
             Console.WriteLine("Вариант 1");
@@ -81,6 +81,7 @@ namespace PR14Files
                 sw.WriteLine("Одинаковое количесто русских и английских букв");
 
             sw.Close();
+            Console.WriteLine("Создан репозиторий на GIT!!!");
             Console.ReadKey();
         }
         /// <summary>
